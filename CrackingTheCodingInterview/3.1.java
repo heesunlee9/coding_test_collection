@@ -1,4 +1,4 @@
-Class FixedMultiStack {
+class FixedMultiStack { 
 	private int numberOfStacks = 3;
 	private int stackCapacity;
 	private int[] values;
@@ -20,8 +20,8 @@ Class FixedMultiStack {
 	}
 
 	public int pop(int stackNum) {
-		if(isEmpty(stackNum)) { 			
-      throw new EmptyStackException();
+		if(isEmpty(stackNum)) {			
+      		throw new EmptyStackException();
 		}
 
 		int topIndex = indexOfTop(stackNum);
@@ -33,8 +33,8 @@ Class FixedMultiStack {
 	}
 
 	public int peek(int stackNum) {
-		if(isEmpty(stackNum)) { 			
-      throw new EmptyStackException();
+		if(isEmpty(stackNum)) {			
+      		throw new EmptyStackException();
 		}
 
 		int topIndex = indexOfTop(stackNum);
