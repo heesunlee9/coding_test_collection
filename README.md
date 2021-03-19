@@ -8,3 +8,6 @@ https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
 
 # 능력 있는 개발자는 어떻게 알아볼 수 있나? by 황준식님
 https://okky.kr/article/370719
+
+# functional programming
+https://purelyfunctional.tv/browse/
